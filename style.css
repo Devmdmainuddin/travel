@@ -334,3 +334,85 @@ color:#444;
         grid-template-columns: 1fr;
     }
 }
+
+/* Exclusive-deals */
+.Exclusive-deals{
+    padding-top:120px;
+    padding-bottom:120px;
+    background:#FEFCFB
+}
+.Exclusive-deals .box-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:30px;
+}
+.Exclusive-deals .box-container .box img{
+    width: 100%;
+    border-radius: 8px;
+}
+.Exclusive-deals .box-container .box .content{
+    padding:32px 16px;
+}
+.Exclusive-deals .box-container .box .top-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Exclusive-deals .box-container .box .top-content h3{
+    font-size: 24px;
+    line-height:26px;
+    font-weight: 700;
+    color:#222;
+    }
+.Exclusive-deals .box-container .box .top-content p .fa-solid{
+    margin-right:8px;
+color:rgb(241, 165, 13);
+}
+.Exclusive-deals .box-container .box .top-content p{
+    font-size: 16px;
+    line-height:20px;
+    }
+.Exclusive-deals .box-container .box .bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Exclusive-deals .box-container .box .bottom-content .icons{
+color:#666;
+}
+.Exclusive-deals .box-container .box .bottom-content .icons .fa-solid{
+    margin-right: 8px;
+    }
+.Exclusive-deals .box-container .box{
+    border:1px solid #66666630;
+    border-radius: 8px;
+}
+.Exclusive-deals .box-container .box .bottom-content .discount-price{
+ text-decoration: line-through;
+ margin-right:16px ;
+}
+.Exclusive-deals .box-container .box .bottom-content .main-price{
+    background:#FFE7DB;
+    line-height: 24px;
+    font-size:16px;
+    padding:2px 6px;
+    border-radius:8px;
+   }
+@media (max-width: 992px) {
+     
+.Exclusive-deals .box-container {     
+grid-template-columns: repeat(3, 1fr);      
+ } 
+ }
+ @media (max-width: 768px) {  
+.Exclusive-deals .box-container {     
+    grid-template-columns: repeat(2, 1fr);          
+     } 
+}
+ @media (max-width:656px){  
+.Exclusive-deals .box-container{
+     grid-template-columns: 1fr;
+}
+}
