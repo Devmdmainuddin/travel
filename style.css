@@ -854,6 +854,9 @@ right:0;
             align-items: center;
             row-gap: 30px;
         }
+        footer .container .top-footer .left-content{
+            width: 100%;
+        }
         footer .container .top-footer .right-content{
             width: 100%;
             justify-content: space-around;
