@@ -416,3 +416,100 @@ grid-template-columns: repeat(3, 1fr);
      grid-template-columns: 1fr;
 }
 }
+
+
+/* .vacation-plan */
+
+.vacation-plan{
+    padding-top:120px;
+    padding-bottom:120px;
+    background:#FEFCFB;
+    position: relative;
+}
+.vacation-plan .container{
+    position: relative;
+}
+.vacation-plan .container .element{
+    position: absolute;
+    top:0;
+    right:188px;
+    
+}
+.vacation-plan .box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+}
+.vacation-plan .box-container .box {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #66666630;
+    border-radius: 8px;
+}
+.vacation-plan .box-container .box img{
+    width: 100%;
+    border-radius: 8px;
+}
+.vacation-plan .box-container .box .content{
+    padding:32px 16px;
+}
+.vacation-plan .box-container .box .top-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.vacation-plan .box-container .box .top-content h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    color:#222222;
+}
+.vacation-plan .box-container .box .top-content p{
+    font-size: 16px;
+    line-height:32px;
+    font-weight: 700;
+    color:#FA7436;
+    }
+    .vacation-plan .box-container .box .bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vacation-plan .box-container .box .bottom-content .icons h4,
+.vacation-plan .box-container .box .bottom-content .review span{
+    font-size: 16px;
+    line-height:24px;
+    color:#666666;
+}
+.vacation-plan .box-container .box .bottom-content .icons .fa-solid{
+    margin-right:8px;
+    color:#FA7436;
+}
+.vacation-plan .box-container .box .bottom-content .review .fa-solid{
+    margin-right:8px;
+    color:rgb(241, 165, 13);
+}
+
+@media (max-width: 992px) {
+     
+.vacation-plan .box-container {        
+    grid-template-columns: repeat(2, 1fr);
+           
+} 
+.vacation-plan .container .element{
+    top:40px;
+    right:50px; 
+}
+}
+@media (max-width:656px){
+.vacation-plan .box-container{
+    grid-template-columns: 1fr;
+ }
+.vacation-plan .container .element{
+    top:10px;
+    right:50%;
+    transform: translate(50%);
+            
+} 
+}
