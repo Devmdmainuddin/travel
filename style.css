@@ -856,7 +856,7 @@ right:0;
         }
         footer .container .top-footer .right-content{
             width: 100%;
-            justify-content: center;
+            justify-content: space-around;
         }
     }
     @media (max-width: 656px){
