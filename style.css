@@ -699,3 +699,70 @@ grid-template-columns: repeat(3, 1fr);
          grid-template-columns: 1fr;
     }
     }
+/* ////////////////////////////////////////////////// */
+
+.subcribe .wraf{
+    background: #FA7436;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.subcribe .wraf .content{
+    width: 674px;
+    padding-top:80px;
+    padding-bottom:80px;
+    z-index: 1;
+}
+.subcribe .wraf .content h2{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+    margin-bottom:64px;
+}
+.subcribe .wraf .content form { 
+    background: #fff;
+    color:#999999;
+    padding:9px;
+    border-radius:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subcribe .wraf .content form input{
+    padding-left:11px;
+    border:0;
+    outline:0;
+    
+}
+.subcribe .wraf .content form button{
+    background: #ff6906;
+    font-size: 16px;
+    padding:22px;
+    color: #fff;
+    border:0;
+    outline:0;
+    border-radius:8px;
+}
+
+.element-1{
+    width: 361px;
+    height: 480px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.element-1 img{
+    width: 100%;
+    object-fit: cover;
+    background-position: bottom;
+}
+.subcribe .wraf .element{
+top:0;
+right:0;
+}
